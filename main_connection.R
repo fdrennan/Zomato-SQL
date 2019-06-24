@@ -8,11 +8,11 @@ library(DBI)
 
 # system('sudo pg_ctlcluster 9.5 main start')
 con <- dbConnect(PostgreSQL(),
-                 dbname   = 'zomato',
+                 dbname   = '',
                  host     = 'drenr.com',
                  port     = 5432,
-                 user     = "postgres",
-                 password = "password")
+                 user     = "",
+                 password = "")
 
 zomato <- read_csv('zomato.csv') %>%
   mutate(id = row_number()) %>%

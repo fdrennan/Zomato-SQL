@@ -1,0 +1,20 @@
+CREATE TABLE zomato(
+   id varchar,
+   url varchar,
+   address varchar,
+   name varchar,
+   online_order varchar,
+   book_table varchar,
+   rate varchar,
+   votes varchar,
+   phone  varchar,
+   location varchar,
+   rest_type  varchar,
+   dish_liked  varchar,
+   cuisines  varchar,
+   two_people_cost varchar,
+   reviews_list  varchar,
+   menu_item  varchar,
+   listed_in_type  varchar,
+   listed_in_city  varchar
+);
